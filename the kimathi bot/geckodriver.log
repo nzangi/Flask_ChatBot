@@ -1,0 +1,457 @@
+1633551839977	geckodriver	INFO	Listening on 127.0.0.1:43981
+1633551839988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilegFHWhm"
+1633551843583	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegFHWhm/search.json.mozlz4", (void 0)))
+1633551848541	Marionette	INFO	Listening on port 44641
+1633551848712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633551962623	Marionette	INFO	Stopped listening on port 44641
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633552201951	geckodriver	INFO	Listening on 127.0.0.1:34591
+1633552201959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilenakPwq"
+1633552205326	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenakPwq/search.json.mozlz4", (void 0)))
+1633552209272	Marionette	INFO	Listening on port 43723
+1633552209319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633552335497	geckodriver	INFO	Listening on 127.0.0.1:47191
+1633552335546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1FOW28"
+1633552340212	Marionette	INFO	Marionette enabled
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1FOW28/search.json.mozlz4", (void 0)))
+1633552344095	Marionette	INFO	Listening on port 35315
+1633552344615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633552346300	Marionette	INFO	Stopped listening on port 43723
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633553489990	geckodriver	INFO	Listening on 127.0.0.1:58807
+1633553491034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileulIjyh"
+1633553494962	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileulIjyh/search.json.mozlz4", (void 0)))
+1633553498949	Marionette	INFO	Listening on port 32877
+1633553499482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/assets/b8b6dc7b/yii.js, line 531: TypeError: window.jQuery is not a function
+JavaScript error: https://portal.dkut.ac.ke/assets/b8b6dc7b/yii.validation.js, line 471: ReferenceError: jQuery is not defined
+JavaScript error: https://portal.dkut.ac.ke/assets/b8b6dc7b/yii.activeForm.js, line 14: TypeError: $ is undefined
+JavaScript error: https://portal.dkut.ac.ke/js/bootstrap.min.js, line 6: TypeError: g is undefined
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633553884978	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1633554164468	Marionette	INFO	Stopped listening on port 35315
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633554957437	geckodriver	INFO	Listening on 127.0.0.1:42559
+1633554957447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileOFjKLg"
+1633554960826	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOFjKLg/search.json.mozlz4", (void 0)))
+1633554963091	Marionette	INFO	Stopped listening on port 32877
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633554965563	Marionette	INFO	Listening on port 36357
+1633554965621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633555044309	geckodriver	INFO	Listening on 127.0.0.1:37949
+1633555044344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileDGzuM4"
+1633555047686	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDGzuM4/search.json.mozlz4", (void 0)))
+1633555051808	Marionette	INFO	Listening on port 41243
+1633555051896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+1633555424603	geckodriver	INFO	Listening on 127.0.0.1:50345
+1633555424650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileQFkOop"
+1633555428207	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQFkOop/search.json.mozlz4", (void 0)))
+1633555432152	Marionette	INFO	Listening on port 45641
+1633555432216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633555439756	Marionette	INFO	Stopped listening on port 41243
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633555439830	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+1633555541475	Marionette	INFO	Stopped listening on port 45641
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633555571137	geckodriver	INFO	Listening on 127.0.0.1:56973
+1633555571185	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile9RNMFN"
+1633555574621	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9RNMFN/search.json.mozlz4", (void 0)))
+1633555578631	Marionette	INFO	Listening on port 37649
+1633555579869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633556129034	geckodriver	INFO	Listening on 127.0.0.1:33851
+1633556129080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilef2es3b"
+1633556132557	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef2es3b/search.json.mozlz4", (void 0)))
+1633556136773	Marionette	INFO	Listening on port 32935
+1633556136844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/assets/b2d47894/jquery.js, line 3868: NS_ERROR_NOT_INITIALIZED: 
+1633556229255	Marionette	INFO	Stopped listening on port 32935
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1633556231311	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1633556240493	geckodriver	INFO	Listening on 127.0.0.1:39831
+1633556240507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile2iIcQ7"
+1633556243641	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2iIcQ7/search.json.mozlz4", (void 0)))
+1633556247877	Marionette	INFO	Listening on port 40375
+1633556248528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633556468564	geckodriver	INFO	Listening on 127.0.0.1:57279
+1633556468615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJmGkeB"
+1633556471955	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJmGkeB/search.json.mozlz4", (void 0)))
+1633556475768	Marionette	INFO	Listening on port 40623
+1633556476400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 570))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633556659855	geckodriver	INFO	Listening on 127.0.0.1:52799
+1633556659869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilealoqY1"
+1633556663009	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilealoqY1/search.json.mozlz4", (void 0)))
+1633556667614	Marionette	INFO	Listening on port 45709
+1633556667734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633557267924	geckodriver	INFO	Listening on 127.0.0.1:50469
+1633557267936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile4fE5yW"
+1633557271039	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4fE5yW/search.json.mozlz4", (void 0)))
+1633557275067	Marionette	INFO	Listening on port 33021
+1633557275217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://www.codegrepper.com/code-examples/python/how+to+scroll+down+slowly+in+selenium+webdriver+python, line 3258: ReferenceError: makeRequest is not defined
+JavaScript error: https://newbedev.com/_next/static/chunks/pages/%5B...slug%5D-581359f7d1016c9377ba.js, line 1: TypeError: window.renderMathInElement is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 3012 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 6979 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633558120435	geckodriver	INFO	Listening on 127.0.0.1:45983
+1633558120443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilehvRZ8H"
+1633558123552	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehvRZ8H/search.json.mozlz4", (void 0)))
+1633558127277	Marionette	INFO	Listening on port 34953
+1633558127811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+1633558226904	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+1633558503263	geckodriver	INFO	Listening on 127.0.0.1:57089
+1633558503271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilenl7WwH"
+1633558506627	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenl7WwH/search.json.mozlz4", (void 0)))
+1633558510312	Marionette	INFO	Listening on port 38475
+1633558510835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633558718897	geckodriver	INFO	Listening on 127.0.0.1:51363
+1633558718939	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilel6mUOb"
+1633558722280	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel6mUOb/search.json.mozlz4", (void 0)))
+1633558727317	Marionette	INFO	Listening on port 42635
+1633558727474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633558921371	geckodriver	INFO	Listening on 127.0.0.1:36279
+1633558921416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileR7qqGK"
+1633558925001	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR7qqGK/search.json.mozlz4", (void 0)))
+1633558929343	Marionette	INFO	Listening on port 45835
+1633558929866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633558934082	Marionette	INFO	Stopped listening on port 38475
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633558936626	Marionette	INFO	Stopped listening on port 34953
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633558941324	Marionette	INFO	Stopped listening on port 42635
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633558987540	geckodriver	INFO	Listening on 127.0.0.1:60683
+1633558987548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilexqfBam"
+1633558992025	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexqfBam/search.json.mozlz4", (void 0)))
+1633558996089	Marionette	INFO	Listening on port 41643
+1633558996681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+Exiting due to channel error.
+1633559163254	geckodriver	INFO	Listening on 127.0.0.1:56513
+1633559163262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXLr0KH"
+1633559166488	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXLr0KH/search.json.mozlz4", (void 0)))
+1633559171195	Marionette	INFO	Listening on port 44299
+1633559171323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1633591126059	Marionette	INFO	Stopped listening on port 33021
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 154630, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-i2FYvX/firefox-92.0+build3/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633591127624	Marionette	INFO	Stopped listening on port 44299
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633592076442	geckodriver	INFO	Listening on 127.0.0.1:55307
+1633592076454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyHFCQs"
+1633592080146	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyHFCQs/search.json.mozlz4", (void 0)))
+1633592084249	Marionette	INFO	Listening on port 35877
+1633592084317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633592245043	geckodriver	INFO	Listening on 127.0.0.1:36721
+1633592245053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1mGVUk"
+1633592248260	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1mGVUk/search.json.mozlz4", (void 0)))
+1633592251996	Marionette	INFO	Listening on port 42129
+1633592253210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633594657109	Marionette	INFO	Stopped listening on port 42129
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633599264454	geckodriver	INFO	Listening on 127.0.0.1:33853
+1633599264461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevyjhH2"
+1633599267800	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevyjhH2/search.json.mozlz4", (void 0)))
+1633599271958	Marionette	INFO	Listening on port 37431
+1633599272030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633599708252	Marionette	INFO	Stopped listening on port 37431
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633600498469	geckodriver	INFO	Listening on 127.0.0.1:43667
+1633600498477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileS6gFWE"
+1633600501722	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS6gFWE/search.json.mozlz4", (void 0)))
+1633600505666	Marionette	INFO	Listening on port 37673
+1633600505735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633600838571	Marionette	INFO	Stopped listening on port 37673
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633674167633	geckodriver	INFO	Listening on 127.0.0.1:49481
+1633674167647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileda1wJ8"
+1633674171109	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileda1wJ8/search.json.mozlz4", (void 0)))
+1633674175220	Marionette	INFO	Listening on port 40579
+1633674175545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633674223900	geckodriver	INFO	Listening on 127.0.0.1:49325
+1633674223910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilefQMnQM"
+1633674227712	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefQMnQM/search.json.mozlz4", (void 0)))
+1633674231709	Marionette	INFO	Listening on port 35931
+1633674231783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+1633674318925	geckodriver	INFO	Listening on 127.0.0.1:57127
+1633674318945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileG71cbQ"
+1633674322346	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileG71cbQ/search.json.mozlz4", (void 0)))
+1633674324121	Marionette	INFO	Stopped listening on port 35931
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633674327653	Marionette	INFO	Listening on port 40097
+1633674327706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633674347090	Marionette	INFO	Stopped listening on port 40097
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1633674350547	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1633674353805	geckodriver	INFO	Listening on 127.0.0.1:48343
+1633674353814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileKjb6Qs"
+1633674357146	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKjb6Qs/search.json.mozlz4", (void 0)))
+1633674360820	Marionette	INFO	Listening on port 34977
+1633674361254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+1633674432412	Marionette	INFO	Stopped listening on port 34977
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633674474454	geckodriver	INFO	Listening on 127.0.0.1:33395
+1633674474467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyHeMem"
+1633674479143	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyHeMem/search.json.mozlz4", (void 0)))
+1633674483895	Marionette	INFO	Listening on port 46089
+1633674483936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+1633674570151	geckodriver	INFO	Listening on 127.0.0.1:42961
+1633674570162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileuW20KW"
+1633674573641	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuW20KW/search.json.mozlz4", (void 0)))
+1633674577431	Marionette	INFO	Listening on port 43745
+1633674577510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1633674582346	Marionette	INFO	Stopped listening on port 46089
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+1633674659447	geckodriver	INFO	Listening on 127.0.0.1:33141
+1633674659454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilemhM5wl"
+1633674662783	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemhM5wl/search.json.mozlz4", (void 0)))
+1633674666440	Marionette	INFO	Listening on port 38111
+1633674666934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633674711480	geckodriver	INFO	Listening on 127.0.0.1:59071
+1633674711490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileIN15cb"
+1633674714675	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIN15cb/search.json.mozlz4", (void 0)))
+1633674718574	Marionette	INFO	Listening on port 36039
+1633674718648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+1633674805952	Marionette	INFO	Stopped listening on port 43745
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633674808680	Marionette	INFO	Stopped listening on port 36039
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633674811990	geckodriver	INFO	Listening on 127.0.0.1:60403
+1633674811998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBzHxq5"
+1633674815409	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBzHxq5/search.json.mozlz4", (void 0)))
+1633674818991	Marionette	INFO	Listening on port 33195
+1633674819057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/site/email, line 178: TypeError: jQuery(...).yiiActiveForm is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633726133206	geckodriver	INFO	Listening on 127.0.0.1:58043
+1633726134164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileit9CDk"
+1633726138205	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileit9CDk/search.json.mozlz4", (void 0)))
+1633726143976	Marionette	INFO	Listening on port 36255
+1633726144032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633728138238	Marionette	INFO	Stopped listening on port 36255
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633790990031	geckodriver	INFO	Listening on 127.0.0.1:34201
+1633790991084	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBPBVSO"
+1633790994464	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBPBVSO/search.json.mozlz4", (void 0)))
+1633790998692	Marionette	INFO	Listening on port 33731
+1633790998804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633793811376	Marionette	INFO	Stopped listening on port 33731
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634231269999	geckodriver	INFO	Listening on 127.0.0.1:35225
+1634231270946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWi7qln"
+1634231275354	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWi7qln/search.json.mozlz4", (void 0)))
+1634231281697	Marionette	INFO	Listening on port 36311
+1634231282179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://portal.dkut.ac.ke/site/index, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+JavaScript error: https://portal.dkut.ac.ke/student/feestatement, line 145: TypeError: jQuery(...).yiiGridView is not a function
+JavaScript error: https://portal.dkut.ac.ke/, line 164: TypeError: jQuery(...).yiiActiveForm is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
