@@ -4,8 +4,8 @@ players = [['Joe', 'P', 10, 2, 0.2], ['Tom', 'SS', 11, 4, 0.364],
            ['Ben', '3B', 0, 0, 0.0]]  # creating an list of lists with few playes information
 position = ('C', '1B', '2B', '3B', 'SS', 'LF', 'CF', 'RF', 'P')  # creating a tuple for storing valid positions
 choice = 0  # choice variable for taking user's menu choice
-lineup = 1  # lineup to take the lineup number from user
-numOfPlayers = 3  # to keep hold on the number of players
+lineup = 1  # lineup to take the lineup n from user
+numOfPlayers = 3  # to keep hold on the n of players
 
 print("=" * 64)
 print("\t\tBaseball Team Manager")
@@ -57,34 +57,34 @@ while choice != 7:  # loop till the choice of user is not equal to 7
                 avg = 0
             NewPlayer = [name, pos, AB, hit, avg]  # create a list as newPlayer, and update the list with new info
             players.append(NewPlayer)  # append the list newplayer to players list
-            numOfPlayers = numOfPlayers + 1  # increment number of players by 1
+            numOfPlayers = numOfPlayers + 1  # increment n of players by 1
             print(name + ' was added')
 
         elif choice == 3:  # if choice is 3
-            lineup = int(raw_input("Lineup number:"))  # take lineup number from user
-            while lineup > numOfPlayers:  # if lineup number is greater than number of player
+            lineup = int(raw_input("Lineup n:"))  # take lineup n from user
+            while lineup > numOfPlayers:  # if lineup n is greater than n of player
                 print(
-                    "Please enter the correct lineup number:")  # then show appropriate info and again ask for lineup number
-                lineup = int(raw_input("Lineup number:"))  # display the player's information with specified lineup
+                    "Please enter the correct lineup n:")  # then show appropriate info and again ask for lineup n
+                lineup = int(raw_input("Lineup n:"))  # display the player's information with specified lineup
             print("You selected " + str(players[lineup - 1][0]) + " " + str(players[lineup - 1][1]) + " " + str(
                 players[lineup - 1][2]) + " " + str(players[lineup - 1][3]) + " " + str(players[lineup - 1][4]))
             del players[lineup - 1]  # delete the player with specified lineup
             numOfPlayers = numOfPlayers - 1  # decrement num of players by 1
-            print("The player with lineup number " + str(lineup) + " has been removed")
+            print("The player with lineup n " + str(lineup) + " has been removed")
 
         elif choice == 4:  # if choice is 4
             current_lineup = int(
-                raw_input("Current lineup number:"))  # take current lineup from user and print the player's info
+                raw_input("Current lineup n:"))  # take current lineup from user and print the player's info
 
             while current_lineup < 1 or current_lineup > numOfPlayers:  # show appropriate message and again ask for lineup if incorrect
-                print("Please enter the correct lineup number:")  # lineup is provided
-                current_lineup = int(raw_input("Current lineup number:"))
+                print("Please enter the correct lineup n:")  # lineup is provided
+                current_lineup = int(raw_input("Current lineup n:"))
             print("You selected " + str(players[current_lineup - 1][0]))
 
-            new_lineup = int(raw_input("New lineup number:"))  # take new lineup from user
+            new_lineup = int(raw_input("New lineup n:"))  # take new lineup from user
             while new_lineup < 1 or new_lineup > numOfPlayers:  # show appropriate message and again ask for lineup if incorrect
-                print("Please enter the correct lineup number:")  # lineup is provided
-                new_lineup = int(raw_input("New lineup number:"))
+                print("Please enter the correct lineup n:")  # lineup is provided
+                new_lineup = int(raw_input("New lineup n:"))
 
             (players[current_lineup - 1], players[new_lineup - 1]) = (
             players[new_lineup - 1], players[current_lineup - 1])
@@ -92,10 +92,10 @@ while choice != 7:  # loop till the choice of user is not equal to 7
 
 
         elif choice == 5:  # if choice is 5
-            lineup = int(raw_input("Lineup number:"))  # take line up from user
+            lineup = int(raw_input("Lineup n:"))  # take line up from user
             while lineup < 1 or lineup > numOfPlayers:  # show appropriate message and again ask for lineup if incorrect
-                print("Please enter the correct lineup number:")  # lineup is provided
-                lineup = int(raw_input("Lineup number:"))
+                print("Please enter the correct lineup n:")  # lineup is provided
+                lineup = int(raw_input("Lineup n:"))
             print("You selected " + str(players[lineup - 1][0]) + " Pos=" + str(
                 players[lineup - 1][1]))  # show player's information
 
@@ -108,10 +108,10 @@ while choice != 7:  # loop till the choice of user is not equal to 7
             print(str(players[lineup - 1][0]) + " updated")
 
         elif choice == 6:  # if choice is 6
-            lineup = int(raw_input("Lineup number:"))  # take correct lineup number from user
+            lineup = int(raw_input("Lineup n:"))  # take correct lineup n from user
             while lineup > numOfPlayers:
-                print("Please enter the correct lineup number:")
-                lineup = int(raw_input("Lineup number:"))
+                print("Please enter the correct lineup n:")
+                lineup = int(raw_input("Lineup n:"))
 
             print("You selected " + str(players[lineup - 1][0]) + " AB=" + str(players[lineup - 1][2]) + " hits=" + str(
                 players[lineup - 1][3]))

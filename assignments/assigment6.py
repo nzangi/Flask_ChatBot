@@ -19,7 +19,7 @@ def add(player_list, calculate_batting_average):
 def delete(player_list):
     number = int(input("Number: "))
     if number < 1 or number > len(player_list):
-        print("Invalid movie number.\n")
+        print("Invalid movie n.\n")
     else:
         player = player_list.pop(number - 1)
         print(player[0] + " was deleted.\n")
@@ -42,15 +42,15 @@ def display_menu():
 
 def calculate_batting_average():
     print("Welcome to the batting average calculator \n")
-    at_bats = int(input("Enter number of at bats: "))  # initialize at_bats and store user entry
+    at_bats = int(input("Enter n of at bats: "))  # initialize at_bats and store user entry
     while at_bats <= 0:
-        print("invalid number of bats")
-        at_bats = int(input("Enter number of at bats: "))
+        print("invalid n of bats")
+        at_bats = int(input("Enter n of at bats: "))
 
-    hits = int(input("Enter number of hits: "))  # initialize  number of hits store user entry
+    hits = int(input("Enter n of hits: "))  # initialize  n of hits store user entry
     # calculate the average and round to three decimal places
     while hits > at_bats or hits < 0:
-        print('Invalid Number of hits. It should be positive and can not be more than number of bats.')
+        print('Invalid Number of hits. It should be positive and can not be more than n of bats.')
         hits = int(input("Number of hits: "))
     avg = hits / at_bats
     avg = round(avg, 3)

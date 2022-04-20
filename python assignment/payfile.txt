@@ -1,0 +1,7 @@
+   ID   Lastname  Pay   
+111452 	 Ames 	 1378.125
+111657 	 Sims 	 796.25
+111932 	 Manning 	 1501.5
+111873 	 Jacobs 	 750.0
+11262 	 Adrews 	 14651.0
+1117 	 Carson 	 1554.0

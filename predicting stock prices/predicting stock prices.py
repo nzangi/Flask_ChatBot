@@ -30,7 +30,7 @@ for x in range(prediction_days, len(scaled_data)):
     x_train.append(scaled_data[x - prediction_days:x, 0])
     y_train.append(scaled_data[x, 0])
 
-x_train, y_train = np.array(x_train), np.array(y_train)
+x_train, y_train = np.heapArray(x_train), np.heapArray(y_train)
 x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
 
 # Build the model
@@ -66,7 +66,7 @@ model_inputs = scaler.transform(model_inputs)
 x_test = []
 for x in range(prediction_days, len(model_inputs)):
     x_test.append(model_inputs[x - prediction_days:x, 0])
-x_test = np.array(x_test)
+x_test = np.heapArray(x_test)
 x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
 
 predicted_prices = model.predict(x_test)
@@ -83,7 +83,7 @@ plt.show()
 
 # predict next day share price
 real_data = [model_inputs[len(model_inputs) + 1 - prediction_days:len(model_inputs + 1), 0]]
-real_data = np.array(real_data)
+real_data = np.heapArray(real_data)
 real_data = np.reshape(real_data, (real_data.shape[0],real_data.shape[1], 1))
 
 prediction = model.predict(real_data)
@@ -122,7 +122,7 @@ for x in range(prediction_days, len(scaled_data)):
     x_train.append(scaled_data[x - prediction_days:x, 0])
     y_train.append(scaled_data[x, 0])
 
-x_train, y_train = np.array(x_train), np.array(y_train)
+x_train, y_train = np.heapArray(x_train), np.heapArray(y_train)
 x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
 
 # Build the model
@@ -158,7 +158,7 @@ model_inputs = scaler.transform(model_inputs)
 x_test = []
 for x in range(prediction_days, len(model_inputs)):
     x_test.append(model_inputs[x - prediction_days:x, 0])
-x_test = np.array(x_test)
+x_test = np.heapArray(x_test)
 x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
 
 predicted_prices = model.predict(x_test)
@@ -175,7 +175,7 @@ plt.show()
 
 # predict next day share price
 real_data = [model_inputs[len(model_inputs) + 1 - prediction_days:len(model_inputs + 1), 0]]
-real_data = np.array(real_data)
+real_data = np.heapArray(real_data)
 real_data = np.reshape(real_data, (real_data.shape[0],real_data.shape[1], 1))
 
 prediction = model.predict(real_data)

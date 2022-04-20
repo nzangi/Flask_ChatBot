@@ -5,7 +5,7 @@ import cv2
 import random
 
 sleep(2)
-position1 = pt.locateOnScreen("///home/nzangi/PycharmProjects/my projects/whatsapp/whatappimages/smiley_clip.png",
+position1 = pt.locateOnScreen("///home/nzangi/PycharmProjects/My Projects/whatsapp/whatappimages/smiley_clip.png",
                               confidence=.6)
 x = position1[0]
 y = position1[1]
@@ -13,7 +13,7 @@ y = position1[1]
 
 def get_message():
     global x, y
-    position = pt.locateOnScreen("///home/nzangi/PycharmProjects/my projects/whatsapp/whatappimages/smiley_clip.png",
+    position = pt.locateOnScreen("///home/nzangi/PycharmProjects/My Projects/whatsapp/whatappimages/smiley_clip.png",
                                  confidence=.6)
     x = position[0]
     y = position[1]
@@ -34,7 +34,7 @@ def get_message():
 # responding the message
 def post_response(message):
     global x, y
-    position = pt.locateOnScreen("///home/nzangi/PycharmProjects/my projects/whatsapp/whatappimages/smiley_clip.png",
+    position = pt.locateOnScreen("///home/nzangi/PycharmProjects/My Projects/whatsapp/whatappimages/smiley_clip.png",
                                  confidence=.6)
     x = position[0]
     y = position[1]
@@ -64,7 +64,7 @@ def check_new_messages():
     while True:
         #checks for grren button and new messaages
         try:
-           position = pt.locateOnScreen("///home/nzangi/PycharmProjects/my projects/whatsapp/whatappimages/greenbox.png", confidence = .7)
+           position = pt.locateOnScreen("///home/nzangi/PycharmProjects/My Projects/whatsapp/whatappimages/greenbox.png", confidence = .7)
            if position is not None:
                pt.moveTo(position)
                pt.moveRel(-50,0)

@@ -1,0 +1,7 @@
+Last Name   ID    Grade  
+Baker 	 111452 	 B
+Simpson 	 111657 	 A
+Mathews 	 111932 	 C
+Jacobs 	 111873 	 D
+Albright 	 11262 	 A
+Williams 	 1117 	 C

@@ -59,7 +59,7 @@ def generate(lambda_=4, mu=5, N0=5, Tmax=200):
     return T, N
 
 
-# Plotting the number of clients in the system
+# Plotting the n of clients in the system
 T, N = generate()
 rcParams['figure.figsize'] = [15, 3]
 plot(T, N, '.b')

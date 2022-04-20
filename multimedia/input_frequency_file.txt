@@ -1,0 +1,4 @@
+Multimedia information can be defined as information that consists of one or more
+different media types. This definition, however, is a changing one because media types
+themselves are constantly changing. Today, multimedia information consists of text,
+audio, video, 2D graphics, and 3D graphics.

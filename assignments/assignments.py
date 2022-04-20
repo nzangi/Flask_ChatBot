@@ -45,31 +45,31 @@ def add_player(numOfPlayers=3):
 
 def remove_player(numOfPlayers=3):
     if choice == 3:
-        lineup = int(input("Lineup number:"))
+        lineup = int(input("Lineup n:"))
         while lineup > numOfPlayers:
-            print("Please enter the correct lineup number:")
-            lineup = int(input("Lineup number:"))
+            print("Please enter the correct lineup n:")
+            lineup = int(input("Lineup n:"))
         print("You selected " + str(players[lineup - 1][0]) + " " + str(players[lineup - 1][1]) + " " + str(
             players[lineup - 1][2]) + " " + str(players[lineup - 1][3]) + " " + str(players[lineup - 1][4]))
         del players[lineup - 1]
         numOfPlayers = numOfPlayers - 1
-        print("The player with lineup number " + str(lineup) + " has been removed")
+        print("The player with lineup n " + str(lineup) + " has been removed")
 
 
 def move_player(numOfPlayers=3):
     if choice == 4:
         current_lineup = int(
-            input("Current lineup number:"))
+            input("Current lineup n:"))
 
         while current_lineup < 1 or current_lineup > numOfPlayers:
-            print("Please enter the correct lineup number:")
-            current_lineup = int(input("Current lineup number:"))
+            print("Please enter the correct lineup n:")
+            current_lineup = int(input("Current lineup n:"))
         print("You selected " + str(players[current_lineup - 1][0]))
 
-        new_lineup = int(input("New lineup number:"))
+        new_lineup = int(input("New lineup n:"))
         while new_lineup < 1 or new_lineup > numOfPlayers:
-            print("Please enter the correct lineup number:")
-            new_lineup = int(input("New lineup number:"))
+            print("Please enter the correct lineup n:")
+            new_lineup = int(input("New lineup n:"))
 
         (players[current_lineup - 1], players[new_lineup - 1]) = (
             players[new_lineup - 1], players[current_lineup - 1])
@@ -78,10 +78,10 @@ def move_player(numOfPlayers=3):
 
 def edit_player_position():
     if choice == 5:
-        lineup = int(input("Lineup number:"))
+        lineup = int(input("Lineup n:"))
         while lineup < 1 or lineup > numOfPlayers:
-            print("Please enter the correct lineup number:")
-            lineup = int(input("Lineup number:"))
+            print("Please enter the correct lineup n:")
+            lineup = int(input("Lineup n:"))
         print("You selected " + str(players[lineup - 1][0]) + " Pos=" + str(
             players[lineup - 1][1]))
 
@@ -96,10 +96,10 @@ def edit_player_position():
 
 def edit_player_stats():
     if choice == 6:  # if choice is 6
-        lineup = int(input("Lineup number:"))
+        lineup = int(input("Lineup n:"))
         while lineup > numOfPlayers:
-            print("Please enter the correct lineup number:")
-            lineup = int(input("Lineup number:"))
+            print("Please enter the correct lineup n:")
+            lineup = int(input("Lineup n:"))
 
         print("You selected " + str(players[lineup - 1][0]) + " AB=" + str(players[lineup - 1][2]) + " hits=" + str(
             players[lineup - 1][3]))
@@ -122,7 +122,7 @@ def main():
     global choice
     # choice = int(input("Enter your choice: "))
     global lineup
-    lineup = 1  # lineup to take the lineup number from user
+    lineup = 1  # lineup to take the lineup n from user
     global numOfPlayers
     numOfPlayers = 3
     global players
