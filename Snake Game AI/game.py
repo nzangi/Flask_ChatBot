@@ -16,7 +16,7 @@ font = pygame.font.SysFont("arial.ttf", 25)
 # is_collision
 
 BLOCK_SIZE = 20
-SPEED = 4
+SPEED = 50
 
 # RGB colors
 WHITE = (255, 255, 255)
@@ -86,7 +86,7 @@ class SnakeGameAI:
         if self.is_collision() or self.frame_iteration > 100 * len(self.snake):
             game_over = True
             reward = -5
-            return game_over, self.score
+            return reward,game_over, self.score
 
         #  4. Place the new food
         if self.head == self.food:
@@ -121,13 +121,13 @@ class SnakeGameAI:
         clock_wise = [Direction.RIGHT, Direction.DOWN, Direction.LEFT, Direction.UP]
         idx = clock_wise.index(self.direction)
 
-        if np.arry_equal(action, [1, 0, 0]):
+        if np.array_equal(action, [1, 0, 0]):
             new_dir = clock_wise[idx]  # no change
-        elif np.arry_equal(action, [0, 1, 0]):
+        elif np.array_equal(action, [0, 1, 0]):
             next_idx = (idx + 1) % 4
             new_dir = clock_wise[next_idx]  # right turn r-> d -> l -u
         else:
-            next_idx = (idx + 1) % 4
+            next_idx = (idx - 1) % 4
             new_dir = clock_wise[next_idx]  # left turn r-> u -> l -d
         self.direction = new_dir
 
@@ -149,7 +149,7 @@ class SnakeGameAI:
         # it hits the boundary
         if point is None:
             point = self.head
-        if point.x > self.w - BLOCK_SIZE or point.x < 0 or point.y > self.w - BLOCK_SIZE or point.y < 0:
+        if point.x > self.w - BLOCK_SIZE or point.x < 0 or point.y > self.h - BLOCK_SIZE or point.y < 0:
             return True
         # hits itself
         if point in self.snake[1:]:
