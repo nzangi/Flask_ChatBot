@@ -16,7 +16,7 @@ font = pygame.font.SysFont("arial.ttf", 25)
 # is_collision
 
 BLOCK_SIZE = 20
-SPEED = 50
+SPEED = 1000000
 
 # RGB colors
 WHITE = (255, 255, 255)
