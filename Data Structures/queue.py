@@ -13,7 +13,7 @@ def create_queue():
 # add an element to queue
 def enqueue(queue, item):
     queue.append(item)
-    print("Element enqueued in the list is:" + item)
+    print("Element enqueued in the myList is:" + item)
 
 
 # Remove an element from the queue

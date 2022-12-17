@@ -1,6 +1,6 @@
 def list(player_list):
     if len(player_list) == 0:
-        print("There are no movies in the list.\n")
+        print("There are no movies in the myList.\n")
         return
     else:
         for i, player in enumerate(player_list, start=1):

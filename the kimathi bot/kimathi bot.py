@@ -35,7 +35,7 @@ class Kimathi:
         self.driver.find_element_by_css_selector("#w2 > li:nth-child(3) > a:nth-child(1)").click()
         sleep(3)
 
-        #academics pass list section
+        #academics pass myList section
         self.driver.find_element_by_css_selector(".btn-success").click()
         sleep(2)
         total_height = int(self.driver.execute_script("return document.body.scrollHeight"))

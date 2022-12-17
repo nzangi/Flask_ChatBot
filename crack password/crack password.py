@@ -16,7 +16,7 @@ for i in profiles:
     # running the  second command to check the passwords
     results = subprocess.check_output(['netsh', 'wlan', 'show', 'profile', i, 'key = clear']).decode('utf-8').split(
         '\n')
-    # storig the passwors after converting them to a list
+    # storig the passwors after converting them to a myList
     results = [b.split(':')[1][1:-1] for b in results if 'Key Content' in b]
 
     # printing the profile passwors using their WIFI name and passwords

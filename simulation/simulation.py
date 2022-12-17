@@ -34,13 +34,13 @@ def generate(lambda_=4, mu=5, N0=5, Tmax=200):
     Tmax:       duration of the observation (default = 200)
     OUTPUTS
     -------
-    T:          list of time of events (arrivals or departures) over [0,T]
-    N:          list of system states (at T(t): N->N+1 or N->N-1)
+    T:          myList of time of events (arrivals or departures) over [0,T]
+    N:          myList of system states (at T(t): N->N+1 or N->N-1)
     """
     seed(20)
     tau = 0  # initial instant
-    T = [0]  # list of instants of events
-    N = [N0]  # initial state of the system, list of state evolutions
+    T = [0]  # myList of instants of events
+    N = [N0]  # initial state of the system, myList of state evolutions
 
     while T[-1] < Tmax:
         if N[-1] == 0:

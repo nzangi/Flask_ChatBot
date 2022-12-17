@@ -13,7 +13,7 @@ todo_list = ["Go shopping", "clean room", "record video"]
 
 def create_note():
     global recognizer
-    speaker.say("What do you want to write into your list?")
+    speaker.say("What do you want to write into your myList?")
     speaker.runAndWait()
 
     done = False
@@ -65,7 +65,7 @@ def add_todo():
                 todo_list.append(item)
                 done = True
 
-                speaker.say(f"I added {item} to the todo list!")
+                speaker.say(f"I added {item} to the todo myList!")
                 speaker.runAndWait()
         except speech_recognition.UnknownValueError:
             recognizer = speech_recognition.Recognizer()
@@ -73,7 +73,7 @@ def add_todo():
 
 
 def show_todo():
-    speaker.say("The items in your list are the following")
+    speaker.say("The items in your myList are the following")
     for item in todo_list:
         speaker.say(item)
     speaker.runAndWait()

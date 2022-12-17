@@ -31,7 +31,7 @@ for alphabet in sentence:
         # remove numbers
         continue
     if alphabet in letter_frequency:
-        # add count of the alphabet by 1
+        # add length of the alphabet by 1
         letter_frequency[alphabet] += 1
     else:
         # it's the first time alphabet appears
@@ -40,7 +40,7 @@ for alphabet in sentence:
 
 # sort our alphabets ascending
 sorted_frequency = sorted(letter_frequency.items(), key=lambda x: x[1], reverse=False)
-# convert sorted list back to dictionary
+# convert sorted myList back to dictionary
 sorted_dictionary = dict(sorted_frequency)
 
 # wring frequency outputs to a file

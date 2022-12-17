@@ -1,7 +1,7 @@
 from past.builtins import raw_input
 
 players = [['Joe', 'P', 10, 2, 0.2], ['Tom', 'SS', 11, 4, 0.364],
-           ['Ben', '3B', 0, 0, 0.0]]  # creating an list of lists with few playes information
+           ['Ben', '3B', 0, 0, 0.0]]  # creating an myList of lists with few playes information
 position = ('C', '1B', '2B', '3B', 'SS', 'LF', 'CF', 'RF', 'P')  # creating a tuple for storing valid positions
 choice = 0  # choice variable for taking user's menu choice
 lineup = 1  # lineup to take the lineup n from user
@@ -35,7 +35,7 @@ while choice != 7:  # loop till the choice of user is not equal to 7
             lineup = 1
             print("Player POS AB H AVG")
             print("-" * 30)
-            for player in players:  # loop through the list and display each players' information
+            for player in players:  # loop through the myList and display each players' information
                 print(str(lineup)),
                 for item in player:
                     print(str(item) + " "),
@@ -55,8 +55,8 @@ while choice != 7:  # loop till the choice of user is not equal to 7
                 avg = float(hit) / float(AB)  # else set avg as 0
             else:
                 avg = 0
-            NewPlayer = [name, pos, AB, hit, avg]  # create a list as newPlayer, and update the list with new info
-            players.append(NewPlayer)  # append the list newplayer to players list
+            NewPlayer = [name, pos, AB, hit, avg]  # create a myList as newPlayer, and update the myList with new info
+            players.append(NewPlayer)  # append the myList newplayer to players myList
             numOfPlayers = numOfPlayers + 1  # increment n of players by 1
             print(name + ' was added')
 

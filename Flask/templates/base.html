@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="#" />
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot</title>
+</head>
+<div class="container">
+    <div class="chatbox">
+        <div class = "chatbox_support">
+            <div class="chatbox_header">
+                <div class="chatbox_image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image"/>
+                </div>
+                <div class="chatbox_content--header">
+                    <h4 class="chatbox_heading--header">Chat Support</h4>
+                    <p class="chatbox_description-header">Hi. My name is Nzangi. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox_messages">
+                <div></div>
+            </div>
+            <div class="chatbox_footer">
+                <input type="text" placeholder="Write a message ...">
+                <button class="chatbox_send--footer send_button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox_button">
+            <button><img src ="{{ url_for('static', filename='images/chatbox-icon.svg')}}"></button>
+        </div>
+    </div>
+</div>
+    <script>$SCRIPT_ROOT = {{ request.script_root|tojson}};</script>
+    <script type="text/javascript" src="{{ url_for('static',filename='app.js')}}"></script>
+<body>
+</body>
+</html>

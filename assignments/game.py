@@ -145,7 +145,7 @@ def addgame():
 def viewgame():
     # Declare the game object
     game()
-    # Call the readFromFile() function to get the list of games
+    # Call the readFromFile() function to get the myList of games
     gameList = game.readFromFile(game.gameFileName)
     gameFound = False
     # Get the author name from the user

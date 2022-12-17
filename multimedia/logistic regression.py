@@ -50,7 +50,7 @@ class LogisticRegression:
         # predicting the labels either 0,1
         for row in dataset:
             y = self.predict(row, self.coefficient)
-            # appealing the predicted values into a predicted_values list
+            # appealing the predicted values into a predicted_values myList
             if y <= threshold:
                 predicted_values.append(0)
             else:
