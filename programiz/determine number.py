@@ -1,7 +1,11 @@
-number = int(input("Enter thr number to check: "))
-if number > 1:
-    print("The number is Positive")
-elif number < 0:
-    print("The number is Negative")
+letter = "o"
+if letter.upper() == "A":
+    print("The Letter is A")
 else:
-    print("The number is zero")
+    if letter.upper() == "B":
+        print("The Letter is B")
+    else:
+        if letter.upper() == "C":
+            print("The Letter is C")
+        else:
+            print("The Letter is not A,B and C")
