@@ -91,18 +91,28 @@ for your_list in your_lists:
 #
 #
 # minus(number)
+#
+# number_1 = int(input("Enter the first value: "))
+# number_2 = int(input("Enter the second number: "))
+# number_3 = int(input("Enter the third number: "))
+#
+# def addition(number_one, number_two,number_three):
+#     if number_one == number_two == number_three:
+#         sum = number_two + number_three + number_one
+#         sum_total = sum * 2
+#
+#     else:
+#         sum_total = number_two + number_three + number_one
+#
+#     return sum_total
+# print(f"The sum of the three numbers {number_1},{number_2},{number_3} is : {addition(number_1,number_2,number_3)}")
 
-number_1 = int(input("Enter the first value: "))
-number_2 = int(input("Enter the second number: "))
-number_3 = int(input("Enter the third number: "))
+my_string = input("Enter the string: ")
 
-def addition(number_one, number_two,number_three):
-    if number_one == number_two == number_three:
-        sum = number_two + number_three + number_one
-        sum_total = sum * 2
 
-    else:
-        sum_total = number_two + number_three + number_one
+def strings(string):
+    if len(string) >= 2 and string[:2] == "Is":
+        return string
+    return "Is" + string
 
-    return sum_total
-print(f"The sum of the three numbers {number_1},{number_2},{number_3} is : {addition(number_1,number_2,number_3)}")
+print(f"The new string is: {strings(my_string)}")
