@@ -118,15 +118,27 @@ for your_list in your_lists:
 #
 # print(f"The new string is: {strings(my_string)}")
 
-words = input("Enter the word: ")
-copies = int(input("Enter the number of copes which one needs: "))
+# words = input("Enter the word: ")
+# copies = int(input("Enter the number of copes which one needs: "))
+#
+#
+# def larger_string(string, numbers):
+#     result = ""
+#     for i in range(numbers):
+#         result = result + string
+#     return result
+#
+#
+# print(f"Your word {words} times {copies} is: {larger_string(words, copies)}")
+
+number = int(input("Enter the number to check if its old or even: "))
 
 
-def larger_string(string, numbers):
-    result = ""
-    for i in range(numbers):
-        result = result + string
-    return result
+def classify(my_number):
+    if number % 2 == 0:
+        print(f"The number {number} is even ")
+    else:
+        print(f"The number {number} is old")
 
 
-print(f"Your word {words} times {copies} is: {larger_string(words, copies)}")
+classify(number)
