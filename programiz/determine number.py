@@ -107,12 +107,26 @@ for your_list in your_lists:
 #     return sum_total
 # print(f"The sum of the three numbers {number_1},{number_2},{number_3} is : {addition(number_1,number_2,number_3)}")
 
-my_string = input("Enter the string: ")
+# my_string = input("Enter the string: ")
+#
+#
+# def strings(string):
+#     if len(string) >= 2 and string[:2] == "Is":
+#         return string
+#     return "Is" + string
+#
+#
+# print(f"The new string is: {strings(my_string)}")
+
+words = input("Enter the word: ")
+copies = int(input("Enter the number of copes which one needs: "))
 
 
-def strings(string):
-    if len(string) >= 2 and string[:2] == "Is":
-        return string
-    return "Is" + string
+def larger_string(string, numbers):
+    result = ""
+    for i in range(numbers):
+        result = result + string
+    return result
 
-print(f"The new string is: {strings(my_string)}")
+
+print(f"Your word {words} times {copies} is: {larger_string(words, copies)}")
