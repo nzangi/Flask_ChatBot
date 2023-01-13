@@ -131,14 +131,36 @@ for your_list in your_lists:
 #
 # print(f"Your word {words} times {copies} is: {larger_string(words, copies)}")
 
-number = int(input("Enter the number to check if its old or even: "))
+# number = int(input("Enter the number to check if its old or even: "))
+#
+#
+# def classify(my_number):
+#     if number % 2 == 0:
+#         print(f"The number {number} is even ")
+#     else:
+#         print(f"The number {number} is old")
+#
+#
+# classify(number)
+
+number_list = []
+list_size = int(input("Enter the size of list: "))
+for i in range(list_size):
+    number = int(input(f"Enter the number {i + 1} to check: "))
+    number_list.append(number)
+number_check = 4
+global count
 
 
-def classify(my_number):
-    if number % 2 == 0:
-        print(f"The number {number} is even ")
-    else:
-        print(f"The number {number} is old")
+def check_number_times(check_number):
+    count = 0
+    for element in number_list:
+        if element == check_number:
+            count = count + 1
+    # print(f"There is {count} in the list of {number_list}")
+    # else:
+    #         print(f"There is no number 4 in the list of {number_list}")
+    return count
 
 
-classify(number)
+print(f"There are {check_number_times(number_check)} in the list {number_list}")
