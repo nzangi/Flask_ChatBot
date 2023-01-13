@@ -142,25 +142,45 @@ for your_list in your_lists:
 #
 #
 # classify(number)
+#
+# number_list = []
+# list_size = int(input("Enter the size of list: "))
+# for i in range(list_size):
+#     number = int(input(f"Enter the number {i + 1} to check: "))
+#     number_list.append(number)
+# number_check = 4
+# global count
+#
+#
+# def check_number_times(check_number):
+#     count = 0
+#     for element in number_list:
+#         if element == check_number:
+#             count = count + 1
+#     # print(f"There is {count} in the list of {number_list}")
+#     # else:
+#     #         print(f"There is no number 4 in the list of {number_list}")
+#     return count
+#
+#
+# print(f"There are {check_number_times(number_check)} in the list {number_list}")
 
-number_list = []
-list_size = int(input("Enter the size of list: "))
-for i in range(list_size):
-    number = int(input(f"Enter the number {i + 1} to check: "))
-    number_list.append(number)
-number_check = 4
-global count
+my_string = input("Enter your string: ")
+power = int(input("Enter the power of your string: "))
 
 
-def check_number_times(check_number):
-    count = 0
-    for element in number_list:
-        if element == check_number:
-            count = count + 1
-    # print(f"There is {count} in the list of {number_list}")
-    # else:
-    #         print(f"There is no number 4 in the list of {number_list}")
-    return count
+def string_classify(string, my_power):
+    string_length = 2
+    if string_length > len(string):
+        string_length = len(string)
+    sub_string = string[:string_length]
+
+    result = ""
+    for i in range(my_power):
+        result = result + sub_string
+    return result
 
 
-print(f"There are {check_number_times(number_check)} in the list {number_list}")
+print(f"The string copy of your string is: {string_classify(my_string, power)}")
+
+# your_letter = input("Enter the number to check whether it is a vowel or not: ")
