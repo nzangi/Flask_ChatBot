@@ -183,33 +183,53 @@ for your_list in your_lists:
 #
 # print(f"The string copy of your string is: {string_classify(my_string, power)}")
 
-your_letter = input("Enter the number to check whether it is a vowel or not: ")
+# your_letter = input("Enter the number to check whether it is a vowel or not: ")
+#
+#
+# def check_vowel(letter):
+#     vowel_list = ['a', 'e', 'i', 'o', 'u']
+#     if letter in vowel_list:
+#         print(f"The letter {your_letter} is a vowel")
+#     else:
+#         print(f"The letter {your_letter} is not a vowel")
+#
+#
+# check_vowel(your_letter)
+#
+# my_list = []
+# list_length = int(input("Enter the length of the list: "))
+# for i in range(list_length):
+#     number = int(input("Enter the number to add in the list: "))
+#     my_list.append(number)
+#
+# check_number = int(input("Enter the number to check in the list: "))
+#
+#
+# def check_list(number_check):
+#     if number_check in my_list:
+#         print(f"The number {number_check} is in the list of {my_list}")
+#     else:
+#         print(f"The number {number_check} is not in the list of {my_list}")
+#
+#
+# check_list(check_number)
 
-
-def check_vowel(letter):
-    vowel_list = ['a', 'e', 'i', 'o', 'u']
-    if letter in vowel_list:
-        print(f"The letter {your_letter} is a vowel")
-    else:
-        print(f"The letter {your_letter} is not a vowel")
-
-
-check_vowel(your_letter)
-
-my_list = []
-list_length = int(input("Enter the length of the list: "))
+number_list = []
+list_length = int(input("Enter the size of your list: "))
 for i in range(list_length):
-    number = int(input("Enter the number to add in the list: "))
-    my_list.append(number)
-
-check_number = int(input("Enter the number to check in the list: "))
+    number = int(input("Enter the number to add in your list: "))
+    number_list.append(number)
 
 
-def check_list(number_check):
-    if number_check in my_list:
-        print(f"The number {number_check} is in the list of {my_list}")
-    else:
-        print(f"The number {number_check} is not in the list of {my_list}")
+def histogram(list):
+    for i in list:
+        output = ""
+        times = i
+
+        while times > 0:
+            output += "#"
+            times = times - 1
+        print(output)
 
 
-check_list(check_number)
+histogram(number_list)
