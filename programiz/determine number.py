@@ -233,3 +233,19 @@ def histogram(list):
 
 
 histogram(number_list)
+
+string_list = []
+string_length = int(input("Enter the size of the string: "))
+for i in range(string_length):
+    letters = input("Enter the word to add in your list: ")
+    string_list.append(letters)
+
+
+def concatenated_list():
+    result = ""
+    for element in string_list:
+        result = result + element
+    return result
+
+
+print(f"The concatenated string is: {concatenated_list()}")
