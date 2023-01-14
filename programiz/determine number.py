@@ -214,38 +214,60 @@ for your_list in your_lists:
 #
 # check_list(check_number)
 
-number_list = []
-list_length = int(input("Enter the size of your list: "))
-for i in range(list_length):
-    number = int(input("Enter the number to add in your list: "))
-    number_list.append(number)
+# number_list = []
+# list_length = int(input("Enter the size of your list: "))
+# for i in range(list_length):
+#     number = int(input("Enter the number to add in your list: "))
+#     number_list.append(number)
+#
+#
+# def histogram(list):
+#     for i in list:
+#         output = ""
+#         times = i
+#
+#         while times > 0:
+#             output += "#"
+#             times = times - 1
+#         print(output)
+#
+#
+# histogram(number_list)
+#
+# string_list = []
+# string_length = int(input("Enter the size of the string: "))
+# for i in range(string_length):
+#     letters = input("Enter the word to add in your list: ")
+#     string_list.append(letters)
+#
+#
+# def concatenated_list():
+#     result = ""
+#     for element in string_list:
+#         result = result + element
+#     return result
+#
+#
+# print(f"The concatenated string is: {concatenated_list()}")
+
+numbers = [
+    386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345,
+    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
+    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
+    958, 743, 527
+]
 
 
-def histogram(list):
-    for i in list:
-        output = ""
-        times = i
-
-        while times > 0:
-            output += "#"
-            times = times - 1
-        print(output)
-
-
-histogram(number_list)
-
-string_list = []
-string_length = int(input("Enter the size of the string: "))
-for i in range(string_length):
-    letters = input("Enter the word to add in your list: ")
-    string_list.append(letters)
+def even_numbers():
+    even_numbers_list = []
+    for i in range(len(numbers)):
+        for element in numbers:
+            if element != 237:
+                if element % 2 == 0:
+                    even_numbers_list.append(element)
+            else:
+                break
+    return even_numbers_list
 
 
-def concatenated_list():
-    result = ""
-    for element in string_list:
-        result = result + element
-    return result
-
-
-print(f"The concatenated string is: {concatenated_list()}")
+print(f"Even numbers before 247 is reached are : {even_numbers()}")
