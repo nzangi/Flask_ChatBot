@@ -250,24 +250,52 @@ for your_list in your_lists:
 #
 # print(f"The concatenated string is: {concatenated_list()}")
 
-numbers = [
-    386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345,
-    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
-    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
-    958, 743, 527
-]
+# numbers = [
+#     386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345,
+#     399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
+#     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
+#     958, 743, 527
+# ]
+#
+#
+# def even_numbers():
+#     even_numbers_list = []
+#     for i in range(len(numbers)):
+#         for element in numbers:
+#             if element != 237:
+#                 if element % 2 == 0:
+#                     even_numbers_list.append(element)
+#             else:
+#                 break
+#     return even_numbers_list
+#
+#
+# print(f"Even numbers before 247 is reached are : {even_numbers()}")
+
+color_list_1 = []
+color_list_2 = []
+
+list1_length = int(input("Enter the size of list 1: "))
+for i in range(list1_length):
+    list1_colors = input(f"Enter color {i + 1} in list 1: ")
+    color_list_1.append(list1_colors)
+list2_length = int(input("Enter the size of list 2: "))
+for i in range(list2_length):
+    list2_colors = input(f"Enter color {i + 1} in list 2: ")
+    color_list_2.append(list2_colors)
 
 
-def even_numbers():
-    even_numbers_list = []
-    for i in range(len(numbers)):
-        for element in numbers:
-            if element != 237:
-                if element % 2 == 0:
-                    even_numbers_list.append(element)
-            else:
-                break
-    return even_numbers_list
+def check_colors():
+    not_in_list2 = []
+    for i in range(len(list1_colors)):
+        # for element1 in list1_colors:
+        for j in range(len(list2_colors)):
+            # for element2 in list1_colors:
+            if list1_colors[i] != list2_colors[j]:
+                # list1_colors[i] = list2_colors[j]
+                not_in_list2.append(list2_colors[i])
+
+    return not_in_list2
 
 
-print(f"Even numbers before 247 is reached are : {even_numbers()}")
+print(f"The color in list 1 {color_list_1} which are not in list 2 {color_list_2} are : {check_colors()}")
