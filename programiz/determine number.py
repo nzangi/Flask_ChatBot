@@ -274,6 +274,8 @@ for your_list in your_lists:
 
 color_list_1 = []
 color_list_2 = []
+not_in_list2 = []
+not_in_list1 = []
 
 list1_length = int(input("Enter the size of list 1: "))
 for i in range(list1_length):
@@ -286,16 +288,15 @@ for i in range(list2_length):
 
 
 def check_colors():
-    not_in_list2 = []
-    for i in range(len(list1_colors)):
-        # for element1 in list1_colors:
-        for j in range(len(list2_colors)):
-            # for element2 in list1_colors:
-            if list1_colors[i] != list2_colors[j]:
-                # list1_colors[i] = list2_colors[j]
-                not_in_list2.append(list2_colors[i])
+    for i in color_list_1:
+        if not i in color_list_2:
+            not_in_list2.append(i)
+    for i in color_list_2:
+        if not i in color_list_1:
+            not_in_list1.append(i)
 
     return not_in_list2
 
 
 print(f"The color in list 1 {color_list_1} which are not in list 2 {color_list_2} are : {check_colors()}")
+# print(f"The color in list 2 {color_list_2} which are not in list 1 {color_list_1} are : {check_colors()}")
