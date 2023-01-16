@@ -272,31 +272,43 @@ for your_list in your_lists:
 #
 # print(f"Even numbers before 247 is reached are : {even_numbers()}")
 
-color_list_1 = []
-color_list_2 = []
-not_in_list2 = []
-not_in_list1 = []
+# color_list_1 = []
+# color_list_2 = []
+# not_in_list2 = []
+# not_in_list1 = []
+#
+# list1_length = int(input("Enter the size of list 1: "))
+# for i in range(list1_length):
+#     list1_colors = input(f"Enter color {i + 1} in list 1: ")
+#     color_list_1.append(list1_colors)
+# list2_length = int(input("Enter the size of list 2: "))
+# for i in range(list2_length):
+#     list2_colors = input(f"Enter color {i + 1} in list 2: ")
+#     color_list_2.append(list2_colors)
+#
+#
+# def check_colors():
+#     for i in color_list_1:
+#         if not i in color_list_2:
+#             not_in_list2.append(i)
+#     for i in color_list_2:
+#         if not i in color_list_1:
+#             not_in_list1.append(i)
+#
+#     return not_in_list2
+#
+#
+# print(f"The color in list 1 {color_list_1} which are not in list 2 {color_list_2} are : {check_colors()}")
+# # print(f"The color in list 2 {color_list_2} which are not in list 1 {color_list_1} are : {check_colors()}")
 
-list1_length = int(input("Enter the size of list 1: "))
-for i in range(list1_length):
-    list1_colors = input(f"Enter color {i + 1} in list 1: ")
-    color_list_1.append(list1_colors)
-list2_length = int(input("Enter the size of list 2: "))
-for i in range(list2_length):
-    list2_colors = input(f"Enter color {i + 1} in list 2: ")
-    color_list_2.append(list2_colors)
+
+base = int(input("Enter the base of the triangle: "))
+height = int(input("Enter the height of the triangle: "))
 
 
-def check_colors():
-    for i in color_list_1:
-        if not i in color_list_2:
-            not_in_list2.append(i)
-    for i in color_list_2:
-        if not i in color_list_1:
-            not_in_list1.append(i)
-
-    return not_in_list2
+def calculate_area(triangle_base, triangle_height):
+    area = 0.5 * triangle_base * triangle_height
+    return area
 
 
-print(f"The color in list 1 {color_list_1} which are not in list 2 {color_list_2} are : {check_colors()}")
-# print(f"The color in list 2 {color_list_2} which are not in list 1 {color_list_1} are : {check_colors()}")
+print(f"The are of trianle with height of {height} and base of {base} is : {calculate_area(base, height)}")
