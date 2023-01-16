@@ -301,13 +301,32 @@ for your_list in your_lists:
 # print(f"The color in list 1 {color_list_1} which are not in list 2 {color_list_2} are : {check_colors()}")
 # # print(f"The color in list 2 {color_list_2} which are not in list 1 {color_list_1} are : {check_colors()}")
 
+#
+# base = int(input("Enter the base of the triangle: "))
+# height = int(input("Enter the height of the triangle: "))
+#
+# def calculate_area(triangle_base,triangle_height):
+#     area = 0.5 * triangle_base * triangle_height
+#     return area
+#
+# print(f"The are of triangle with height of {height} and base of {base} is : {calculate_area(base,height)}")
 
-base = int(input("Enter the base of the triangle: "))
-height = int(input("Enter the height of the triangle: "))
+number_1 = int(input("Enter the number 1 to check GCD: "))
+number_2 = int(input("Enter the number 2  to check GCD: "))
 
-def calculate_area(triangle_base,triangle_height):
-    area = 0.5 * triangle_base * triangle_height
-    return area
+def calculate_GCD(a,b):
+    if a > b:
+        small = b
+    else:
+        small = a
+    for i in range(1,small+1):
+        if (a % i == 0) and (b % i == 0):
+            gcd = i
+    return gcd
 
-print(f"The are of triangle with height of {height} and base of {base} is : {calculate_area(base,height)}")
+print(f"The GCD of {number_1} and {number_2} is : {calculate_GCD(number_1,number_2)}")
+
+
+
+
 
