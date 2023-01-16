@@ -305,10 +305,9 @@ for your_list in your_lists:
 base = int(input("Enter the base of the triangle: "))
 height = int(input("Enter the height of the triangle: "))
 
-
-def calculate_area(triangle_base, triangle_height):
+def calculate_area(triangle_base,triangle_height):
     area = 0.5 * triangle_base * triangle_height
     return area
 
+print(f"The are of triangle with height of {height} and base of {base} is : {calculate_area(base,height)}")
 
-print(f"The are of trianle with height of {height} and base of {base} is : {calculate_area(base, height)}")
