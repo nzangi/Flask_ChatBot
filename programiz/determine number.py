@@ -359,16 +359,30 @@ for your_list in your_lists:
 #
 # print(f"The sum of the numbers {number_1},{number_2},{number_3} is : {total(number_1, number_2, number_3)}")
 
-number_one = int(input("Enter your first number: "))
-number_two = int(input("Enter your second number: "))
+# number_one = int(input("Enter your first number: "))
+# number_two = int(input("Enter your second number: "))
+#
+#
+# def sum_of_numbers(number1, number_2):
+#     sum = number_2 + number1
+#     if sum == 15 or sum == 20:
+#         sum = 20
+#     else:
+#         sum = number_2 + number1
+#
+#     return sum
+#
+#
+# print(f"The sum of numbers {number_one} and {number_two} is : {sum_of_numbers(number_one, number_two)}")
 
-def sum_of_numbers(number1,number_2):
-    sum = number_2 + number1
-    if sum == 15 or sum == 20:
-        sum = 20
-    else:
-        sum = number_2 + number1
+number_One = input("Enter your first number: ")
+number_Two = input("Enter the second number: ")
 
-    return sum
 
-print(f"The sum of numbers {number_one} and {number_two} is : {sum_of_numbers(number_one,number_two)}")
+def check_int(number1, number2):
+    if not isinstance(number1, int) and isinstance(number2, int):
+        return "inputs must be integers"
+    return number1 + number2
+
+
+print(f"The sum of the two integers is {check_int(number_One, number_Two)}")
