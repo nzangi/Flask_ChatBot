@@ -311,35 +311,48 @@ for your_list in your_lists:
 #
 # print(f"The are of triangle with height of {height} and base of {base} is : {calculate_area(base,height)}")
 
-number_1 = int(input("Enter the number 1 to check GCD: "))
-number_2 = int(input("Enter the number 2  to check GCD: "))
+# number_1 = int(input("Enter the number 1 to check GCD: "))
+# number_2 = int(input("Enter the number 2  to check GCD: "))
+#
+#
+# def calculate_GCD(a, b):
+#     if a > b:
+#         small = b
+#     else:
+#         small = a
+#     for i in range(1, small + 1):
+#         if (a % i == 0) and (b % i == 0):
+#             gcd = i
+#     return gcd
+#
+#
+# def calculate_lcm(c, d):
+#     if c > d:
+#         large = c
+#     else:
+#         large = d
+#
+#     while (True):
+#         if (large % c == 0) and (large % d == 0):
+#             lcm = large
+#             break
+#         large += 1
+#
+#     return lcm
+#
+#
+# print(f"The GCD of {number_1} and {number_2} is : {calculate_GCD(number_1, number_2)}")
+# print(f"The LCM of {number_1} and {number_2} is : {calculate_lcm(number_1, number_2)}")
 
+number_1 = int(input("Enter the 1 number find sum : "))
+number_2 = int(input("Enter the 2 number to find sum: "))
+number_3 = int(input("Enter the 3 number to find sum: "))
 
-def calculate_GCD(a, b):
-    if a > b:
-        small = b
+def total(a,b,c):
+    if a == b or a==c or b==c:
+        sum = 0
     else:
-        small = a
-    for i in range(1, small + 1):
-        if (a % i == 0) and (b % i == 0):
-            gcd = i
-    return gcd
+        sum = a + b + c
+    return sum
 
-
-def calculate_lcm(c, d):
-    if c > d:
-        large = c
-    else:
-        large = d
-
-    while (True):
-        if (large % c == 0) and (large % d == 0):
-            lcm = large
-            break
-        large += 1
-
-    return lcm
-
-
-print(f"The GCD of {number_1} and {number_2} is : {calculate_GCD(number_1, number_2)}")
-print(f"The LCM of {number_1} and {number_2} is : {calculate_lcm(number_1, number_2)}")
+print(f"The sum of the numbers {number_1},{number_2},{number_3} is : {total(number_1,number_2,number_3)}")
