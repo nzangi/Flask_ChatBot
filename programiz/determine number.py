@@ -387,13 +387,26 @@ for your_list in your_lists:
 #
 # print(f"The sum of the two integers is {check_int(number_One, number_Two)}")
 
-name = input("Enter your name: ")
-age = int(input("Enter your current age: "))
-address = input("Enter your address:  ")
+# name = input("Enter your name: ")
+# age = int(input("Enter your current age: "))
+# address = input("Enter your address:  ")
+#
+#
+# def display_details(your_name, your_age, your_address):
+#     print(f" Name : {your_name}\n Age : {your_age}\n Address : {your_address}")
+#
+#
+# display_details(name, age, address)
+
+x = int(input("Enter input of value of X: "))
+y = int(input("Enter input of value of Y: "))
 
 
-def display_details(your_name, your_age, your_address):
-    print(f" Name : {your_name}\n Age : {your_age}\n Address : {your_address}")
+def power(a, b):
+    # (x+y) * (x+y)
+    sum = a + b
+    result = sum ** 2
+    return result
 
 
-display_details(name, age, address)
+print(f"The output of (({x} + {y}) ** 2) = {power(x, y)}")
