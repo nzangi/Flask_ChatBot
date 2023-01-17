@@ -398,15 +398,29 @@ for your_list in your_lists:
 #
 # display_details(name, age, address)
 
-x = int(input("Enter input of value of X: "))
-y = int(input("Enter input of value of Y: "))
+# x = int(input("Enter input of value of X: "))
+# y = int(input("Enter input of value of Y: "))
+#
+#
+# def power(a, b):
+#     # (x+y) * (x+y)
+#     sum = a + b
+#     result = sum ** 2
+#     return result
+#
+#
+# print(f"The output of (({x} + {y}) ** 2) = {power(x, y)}")
+
+principal = int(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of the principal: "))
+time = int(input("Enter time for the amount to mature: "))
 
 
-def power(a, b):
-    # (x+y) * (x+y)
-    sum = a + b
-    result = sum ** 2
-    return result
+def principal_interest(p, r, t):
+    my_principal = p * ((1 + (1/100 * r)) ** t)
+    # interest = (p * r * t) // 100
+    # total_principal = p + interest
+    return round(my_principal,3)
 
 
-print(f"The output of (({x} + {y}) ** 2) = {power(x, y)}")
+print(f"principal and Interest of principal of {principal},rate of {rate} and time of {time} is: {principal_interest(principal,rate,time)}")
