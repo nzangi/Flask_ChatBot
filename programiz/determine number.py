@@ -375,14 +375,25 @@ for your_list in your_lists:
 #
 # print(f"The sum of numbers {number_one} and {number_two} is : {sum_of_numbers(number_one, number_two)}")
 
-number_One = input("Enter your first number: ")
-number_Two = input("Enter the second number: ")
+# number_One = input("Enter your first number: ")
+# number_Two = input("Enter the second number: ")
+#
+#
+# def check_int(number1, number2):
+#     if not isinstance(number1, int) and isinstance(number2, int):
+#         return "inputs must be integers"
+#     return number1 + number2
+#
+#
+# print(f"The sum of the two integers is {check_int(number_One, number_Two)}")
+
+name = input("Enter your name: ")
+age = int(input("Enter your current age: "))
+address = input("Enter your address:  ")
 
 
-def check_int(number1, number2):
-    if not isinstance(number1, int) and isinstance(number2, int):
-        return "inputs must be integers"
-    return number1 + number2
+def display_details(your_name, your_age, your_address):
+    print(f" Name : {your_name}\n Age : {your_age}\n Address : {your_address}")
 
 
-print(f"The sum of the two integers is {check_int(number_One, number_Two)}")
+display_details(name, age, address)
