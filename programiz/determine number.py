@@ -344,15 +344,31 @@ for your_list in your_lists:
 # print(f"The GCD of {number_1} and {number_2} is : {calculate_GCD(number_1, number_2)}")
 # print(f"The LCM of {number_1} and {number_2} is : {calculate_lcm(number_1, number_2)}")
 
-number_1 = int(input("Enter the 1 number find sum : "))
-number_2 = int(input("Enter the 2 number to find sum: "))
-number_3 = int(input("Enter the 3 number to find sum: "))
+# number_1 = int(input("Enter the 1 number find sum : "))
+# number_2 = int(input("Enter the 2 number to find sum: "))
+# number_3 = int(input("Enter the 3 number to find sum: "))
+#
+#
+# def total(a, b, c):
+#     if a == b or a == c or b == c:
+#         sum = 0
+#     else:
+#         sum = a + b + c
+#     return sum
+#
+#
+# print(f"The sum of the numbers {number_1},{number_2},{number_3} is : {total(number_1, number_2, number_3)}")
 
-def total(a,b,c):
-    if a == b or a==c or b==c:
-        sum = 0
+number_one = int(input("Enter your first number: "))
+number_two = int(input("Enter your second number: "))
+
+def sum_of_numbers(number1,number_2):
+    sum = number_2 + number1
+    if sum == 15 or sum == 20:
+        sum = 20
     else:
-        sum = a + b + c
+        sum = number_2 + number1
+
     return sum
 
-print(f"The sum of the numbers {number_1},{number_2},{number_3} is : {total(number_1,number_2,number_3)}")
+print(f"The sum of numbers {number_one} and {number_two} is : {sum_of_numbers(number_one,number_two)}")
