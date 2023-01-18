@@ -439,10 +439,13 @@ for your_list in your_lists:
 #
 # print(f"The distance between ({X1},{Y1}) and ({X2},{Y2}) is : {coordinate_distance(X1,Y1,X2,Y2)}")
 
-import os
+# import os
+#
+# path = "home/nzangi/PycharmProjects/My Projects/dkdetermine number.py"
+# if os.path.exists(path):
+#     print("File found")
+# else:
+#     print("File not found")
 
-path = "home/nzangi/PycharmProjects/My Projects/dkdetermine number.py"
-if os.path.exists(path):
-    print("File found")
-else:
-    print("File not found")
+import platform
+print(platform.architecture())
