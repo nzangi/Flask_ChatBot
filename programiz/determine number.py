@@ -449,3 +449,4 @@ for your_list in your_lists:
 
 import platform
 print(platform.architecture())
+print(platform.uname())
