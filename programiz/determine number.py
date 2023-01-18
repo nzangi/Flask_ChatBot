@@ -410,17 +410,31 @@ for your_list in your_lists:
 #
 #
 # print(f"The output of (({x} + {y}) ** 2) = {power(x, y)}")
+#
+# principal = int(input("Enter the principal amount: "))
+# rate = float(input("Enter the rate of the principal: "))
+# time = int(input("Enter time for the amount to mature: "))
+#
+#
+# def principal_interest(p, r, t):
+#     my_principal = p * ((1 + (1/100 * r)) ** t)
+#     # interest = (p * r * t) // 100
+#     # total_principal = p + interest
+#     return round(my_principal,3)
+#
+#
+# print(f"principal and Interest of principal of {principal},rate of {rate} and time of {time} is: {principal_interest(principal,rate,time)}")
 
-principal = int(input("Enter the principal amount: "))
-rate = float(input("Enter the rate of the principal: "))
-time = int(input("Enter time for the amount to mature: "))
+X1 = int(input("Enter the coordinate of X1: "))
+Y1 = int(input("Enter the coordinate of Y1: "))
+X2 = int(input("Enter the coordinate of X2: "))
+Y2 = int(input("Enter the coordinate of Y2: "))
 
 
-def principal_interest(p, r, t):
-    my_principal = p * ((1 + (1/100 * r)) ** t)
-    # interest = (p * r * t) // 100
-    # total_principal = p + interest
-    return round(my_principal,3)
+def coordinate_distance(x1, y1, x2, y2):
+    answer = ((x2 - x1) ** 2) + ((y2 - y1) ** 2)
 
+    result = answer ** 0.5
+    return  result
 
-print(f"principal and Interest of principal of {principal},rate of {rate} and time of {time} is: {principal_interest(principal,rate,time)}")
+print(f"The distance between ({X1},{Y1}) and ({X2},{Y2}) is : {coordinate_distance(X1,Y1,X2,Y2)}")
