@@ -448,5 +448,18 @@ for your_list in your_lists:
 #     print("File not found")
 
 import platform
-print(platform.architecture())
-print(platform.uname())
+import os
+print(f"The name of my OS is : {os.name}")
+print(f"The name of my plaform is :{platform.system()}")
+print(f"The version of the OS: {platform.release()}")
+
+import site
+print(site.getsitepackages()[0])
+print(site.getsitepackages()[1])
+print(site.getsitepackages()[2])
+
+from subprocess import call
+path ="/home/nzangi/PycharmProjects/My Projects/programiz"
+# call(path["ls"])
+call(["ls", "-l"])
+
