@@ -425,16 +425,24 @@ for your_list in your_lists:
 #
 # print(f"principal and Interest of principal of {principal},rate of {rate} and time of {time} is: {principal_interest(principal,rate,time)}")
 
-X1 = int(input("Enter the coordinate of X1: "))
-Y1 = int(input("Enter the coordinate of Y1: "))
-X2 = int(input("Enter the coordinate of X2: "))
-Y2 = int(input("Enter the coordinate of Y2: "))
+# X1 = int(input("Enter the coordinate of X1: "))
+# Y1 = int(input("Enter the coordinate of Y1: "))
+# X2 = int(input("Enter the coordinate of X2: "))
+# Y2 = int(input("Enter the coordinate of Y2: "))
+#
+#
+# def coordinate_distance(x1, y1, x2, y2):
+#     answer = ((x2 - x1) ** 2) + ((y2 - y1) ** 2)
+#
+#     result = answer ** 0.5
+#     return  result
+#
+# print(f"The distance between ({X1},{Y1}) and ({X2},{Y2}) is : {coordinate_distance(X1,Y1,X2,Y2)}")
 
+import os
 
-def coordinate_distance(x1, y1, x2, y2):
-    answer = ((x2 - x1) ** 2) + ((y2 - y1) ** 2)
-
-    result = answer ** 0.5
-    return  result
-
-print(f"The distance between ({X1},{Y1}) and ({X2},{Y2}) is : {coordinate_distance(X1,Y1,X2,Y2)}")
+path = "home/nzangi/PycharmProjects/My Projects/dkdetermine number.py"
+if os.path.exists(path):
+    print("File found")
+else:
+    print("File not found")
