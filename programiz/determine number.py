@@ -447,19 +447,40 @@ for your_list in your_lists:
 # else:
 #     print("File not found")
 
-import platform
+# import platform
+# import os
+# print(f"The name of my OS is : {os.name}")
+# print(f"The name of my plaform is :{platform.system()}")
+# print(f"The version of the OS: {platform.release()}")
+#
+# import site
+# print(site.getsitepackages()[0])
+# print(site.getsitepackages()[1])
+# print(site.getsitepackages()[2])
+#
+# from subprocess import call
+# path ="/home/nzangi/PycharmProjects/My Projects/programiz"
+# # call(path["ls"])
+# call(["ls", "-l"])
+
 import os
-print(f"The name of my OS is : {os.name}")
-print(f"The name of my plaform is :{platform.system()}")
-print(f"The version of the OS: {platform.release()}")
+print(f"Current file is: {os.path.relpath(__file__)}")
 
-import site
-print(site.getsitepackages()[0])
-print(site.getsitepackages()[1])
-print(site.getsitepackages()[2])
+import multiprocessing
+print(multiprocessing.cpu_count())
 
-from subprocess import call
-path ="/home/nzangi/PycharmProjects/My Projects/programiz"
-# call(path["ls"])
-call(["ls", "-l"])
+my_string = input("Enter a flaot here: ")
+
+my_float = float(my_string)
+int_mystring = int(my_float)
+print(my_float)
+print(int_mystring)
+
+from os import listdir
+from os.path import isfile,join
+files = [f for f in listdir("/home/nzangi") if isfile(join("/home/nzangi",f))]
+print(files)
+
+for i in range(1,11):
+    print("#",end="")
 
