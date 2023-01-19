@@ -503,21 +503,46 @@ for your_list in your_lists:
 # print(os.system('ip a'))
 
 #calculate teh excution time of a program
-import time
-loop = int(input("Enter the number of loop to terminate: "))
-global sum
-sum = 0
+# import time
+# loop = int(input("Enter the number of loop to terminate: "))
+# global sum
+# sum = 0
+#
+# def calculate_time(loop_number):
+#     start_time = time.time()
+#     sum = 0
+#     for i in range(1,loop_number+1):
+#         sum = sum  + i
+#     end_time =  time.time()
+#     return sum,end_time
+# my_tupple = calculate_time(loop)
+# print(my_tupple)
+# print(f"The sum of from number 1 and to {loop}  is {my_tupple[0]} and excution time is {my_tupple[1]}")
 
-def calculate_time(loop_number):
-    start_time = time.time()
-    sum = 0
-    for i in range(1,loop_number+1):
-        sum = sum  + i
-    end_time =  time.time()
-    return sum,end_time
-my_tupple = calculate_time(loop)
-print(my_tupple)
-print(f"The sum of from number 1 and to {loop}  is {my_tupple[0]} and excution time is {my_tupple[1]}")
+
+# my_list = []
+# numbers_loop = int(input("Enter the the size of your list to add numbers to: "))
+# for i in range(numbers_loop):
+#     number = int(input(f"Add the number {i+1} to be in your list:  "))
+#     my_list.append(number)
+#
+# def add_numbers(list):
+#     sum = 0
+#     for i in list:
+#         sum = sum + i
+#     return sum
+#
+# print(f"Your sum of the list is : {add_numbers(my_list)}")
+
+base = int(input("Enter your base of triangle: "))
+height = int(input("Enter your height of traiangle: "))
+
+def hypotenuse(b,h):
+    h = b ** 2 + h ** 2
+    hypotenuse = h** 0.5
+    return hypotenuse
+print(f"The hypotenuse with base of {base} and height of {height} is : {hypotenuse(base,height)}")
+
 
 
 
