@@ -463,24 +463,35 @@ for your_list in your_lists:
 # # call(path["ls"])
 # call(["ls", "-l"])
 
+# import os
+# print(f"Current file is: {os.path.relpath(__file__)}")
+#
+# import multiprocessing
+# print(multiprocessing.cpu_count())
+#
+# my_string = input("Enter a flaot here: ")
+#
+# my_float = float(my_string)
+# int_mystring = int(my_float)
+# print(my_float)
+# print(int_mystring)
+#
+# from os import listdir
+# from os.path import isfile,join
+# files = [f for f in listdir("/home/nzangi") if isfile(join("/home/nzangi",f))]
+# print(files)
+#
+# for i in range(1,11):
+#     print("#",end="")
+
+import cProfile
+def sum():
+    print(1+2)
+cProfile.run('sum()')
+
 import os
-print(f"Current file is: {os.path.relpath(__file__)}")
+print(os.environ["PATH"])
 
-import multiprocessing
-print(multiprocessing.cpu_count())
-
-my_string = input("Enter a flaot here: ")
-
-my_float = float(my_string)
-int_mystring = int(my_float)
-print(my_float)
-print(int_mystring)
-
-from os import listdir
-from os.path import isfile,join
-files = [f for f in listdir("/home/nzangi") if isfile(join("/home/nzangi",f))]
-print(files)
-
-for i in range(1,11):
-    print("#",end="")
+import getpass
+print(getpass.getuser())
 
