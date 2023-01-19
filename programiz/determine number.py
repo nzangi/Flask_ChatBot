@@ -495,11 +495,12 @@ for your_list in your_lists:
 # import getpass
 # print(getpass.getuser())
 
-import socket
+import socket,os
 host_name = socket.gethostname()
 IPAdress = socket.gethostbyname(host_name)
 print(f"Your Computer Name is : {host_name}")
 print(f"Your Computer IP Address is : {IPAdress}")
+print(os.system('ip a'))
 
 
 
