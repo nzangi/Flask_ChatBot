@@ -543,14 +543,25 @@ for your_list in your_lists:
 #     return hypotenuse
 # print(f"The hypotenuse with base of {base} and height of {height} is : {hypotenuse(base,height)}")
 
-days = int(input("Enter the number of days: "))
-hrs = int(input("Enter the number of hrs: "))
-mins = int(input("Enter the minutes: "))
-sec = int(input("Enter the number od seconds: "))
+# days = int(input("Enter the number of days: "))
+# hrs = int(input("Enter the number of hrs: "))
+# mins = int(input("Enter the minutes: "))
+# sec = int(input("Enter the number od seconds: "))
+#
+# total_time = (3600* 24* days) + (60*60* hrs) + (60 * mins) + sec
+#
+# print(f"Total time is : {total_time} seconds")
 
-total_time = (3600* 24* days) + (60*60* hrs) + (60 * mins) + sec
+seconds = int(input("Enter the number of seconds to covert into Days, hrs, minutes and seconds: "))
 
-print(f"Total time is : {total_time} seconds")
+days = seconds // (3600*24)
+rem_hrs = (seconds % (3600*24))
+hrs = rem_hrs // 3600
+rem_min = (rem_hrs % 3600)
+mins = rem_min // 60
+sec = (rem_min % 60)
+
+print(f"In {seconds}, there are {days} days {hrs} hrs {mins} mins {sec} secs")
 
 
 
