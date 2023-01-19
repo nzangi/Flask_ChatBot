@@ -552,16 +552,26 @@ for your_list in your_lists:
 #
 # print(f"Total time is : {total_time} seconds")
 
-seconds = int(input("Enter the number of seconds to covert into Days, hrs, minutes and seconds: "))
+# seconds = int(input("Enter the number of seconds to covert into Days, hrs, minutes and seconds: "))
+#
+# days = seconds // (3600*24)
+# rem_hrs = (seconds % (3600*24))
+# hrs = rem_hrs // 3600
+# rem_min = (rem_hrs % 3600)
+# mins = rem_min // 60
+# sec = (rem_min % 60)
+#
+# print(f"In {seconds}, there are {days} days {hrs} hrs {mins} mins {sec} secs")
 
-days = seconds // (3600*24)
-rem_hrs = (seconds % (3600*24))
-hrs = rem_hrs // 3600
-rem_min = (rem_hrs % 3600)
-mins = rem_min // 60
-sec = (rem_min % 60)
+height = float(input("Enter your height in M2: "))
+mass = float(input("Enter your wight in Kg: "))
 
-print(f"In {seconds}, there are {days} days {hrs} hrs {mins} mins {sec} secs")
+def mass_index(h,m):
+    bmi = m / (h**2)
+    BMI = round(bmi,2)
+    return BMI
+
+print(f"Your BMI index of height of {height} and mass of {mass} is : {mass_index(height,mass)}")
 
 
 
