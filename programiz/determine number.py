@@ -495,12 +495,29 @@ for your_list in your_lists:
 # import getpass
 # print(getpass.getuser())
 
-import socket,os
-host_name = socket.gethostname()
-IPAdress = socket.gethostbyname(host_name)
-print(f"Your Computer Name is : {host_name}")
-print(f"Your Computer IP Address is : {IPAdress}")
-print(os.system('ip a'))
+# import socket,os
+# host_name = socket.gethostname()
+# IPAdress = socket.gethostbyname(host_name)
+# print(f"Your Computer Name is : {host_name}")
+# print(f"Your Computer IP Address is : {IPAdress}")
+# print(os.system('ip a'))
+
+#calculate teh excution time of a program
+import time
+loop = int(input("Enter the number of loop to terminate: "))
+global sum
+sum = 0
+
+def calculate_time(loop_number):
+    start_time = time.time()
+    sum = 0
+    for i in range(1,loop_number+1):
+        sum = sum  + i
+    end_time =  time.time()
+    return sum,end_time
+my_tupple = calculate_time(loop)
+print(my_tupple)
+print(f"The sum of from number 1 and to {loop}  is {my_tupple[0]} and excution time is {my_tupple[1]}")
 
 
 
