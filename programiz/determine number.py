@@ -534,15 +534,23 @@ for your_list in your_lists:
 #
 # print(f"Your sum of the list is : {add_numbers(my_list)}")
 
-base = int(input("Enter your base of triangle: "))
-height = int(input("Enter your height of traiangle: "))
+# base = int(input("Enter your base of triangle: "))
+# height = int(input("Enter your height of traiangle: "))
+#
+# def hypotenuse(b,h):
+#     h = b ** 2 + h ** 2
+#     hypotenuse = h** 0.5
+#     return hypotenuse
+# print(f"The hypotenuse with base of {base} and height of {height} is : {hypotenuse(base,height)}")
 
-def hypotenuse(b,h):
-    h = b ** 2 + h ** 2
-    hypotenuse = h** 0.5
-    return hypotenuse
-print(f"The hypotenuse with base of {base} and height of {height} is : {hypotenuse(base,height)}")
+days = int(input("Enter the number of days: "))
+hrs = int(input("Enter the number of hrs: "))
+mins = int(input("Enter the minutes: "))
+sec = int(input("Enter the number od seconds: "))
 
+total_time = (3600* 24* days) + (60*60* hrs) + (60 * mins) + sec
+
+print(f"Total time is : {total_time} seconds")
 
 
 
