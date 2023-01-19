@@ -563,15 +563,22 @@ for your_list in your_lists:
 #
 # print(f"In {seconds}, there are {days} days {hrs} hrs {mins} mins {sec} secs")
 
-height = float(input("Enter your height in M2: "))
-mass = float(input("Enter your wight in Kg: "))
+# height = float(input("Enter your height in M2: "))
+# mass = float(input("Enter your wight in Kg: "))
+#
+# def mass_index(h,m):
+#     bmi = m / (h**2)
+#     BMI = round(bmi,2)
+#     return BMI
+#
+# print(f"Your BMI index of height of {height} and mass of {mass} is : {mass_index(height,mass)}")
 
-def mass_index(h,m):
-    bmi = m / (h**2)
-    BMI = round(bmi,2)
-    return BMI
+number = input("Enter a number of your choice: ")
+def sum_number():
+    sum = 0
+    for i in str(number):
+        sum = sum + int(i)
+    return sum
 
-print(f"Your BMI index of height of {height} and mass of {mass} is : {mass_index(height,mass)}")
-
-
+print(f"The sum of digit of number {number} is : {sum_number()}")
 
