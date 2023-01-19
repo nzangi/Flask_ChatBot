@@ -484,14 +484,22 @@ for your_list in your_lists:
 # for i in range(1,11):
 #     print("#",end="")
 
-import cProfile
-def sum():
-    print(1+2)
-cProfile.run('sum()')
+# import cProfile
+# def sum():
+#     print(1+2)
+# cProfile.run('sum()')
+#
+# import os
+# print(os.environ["PATH"])
+#
+# import getpass
+# print(getpass.getuser())
 
-import os
-print(os.environ["PATH"])
+import socket
+host_name = socket.gethostname()
+IPAdress = socket.gethostbyname(host_name)
+print(f"Your Computer Name is : {host_name}")
+print(f"Your Computer IP Address is : {IPAdress}")
 
-import getpass
-print(getpass.getuser())
+
 
