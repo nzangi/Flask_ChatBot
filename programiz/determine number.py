@@ -573,13 +573,15 @@ for your_list in your_lists:
 #
 # print(f"Your BMI index of height of {height} and mass of {mass} is : {mass_index(height,mass)}")
 
-number = input("Enter a number of your choice: ")
-def sum_number():
-    sum = 0
-    for i in str(number):
-        sum = sum + int(i)
-    return sum
+# number = input("Enter a number of your choice: ")
+# def sum_number():
+#     sum = 0
+#     for i in str(number):
+#         sum = sum + int(i)
+#     return sum
+#
+# print(f"The sum of digit of number {number} is : {sum_number()}")
 
-print(f"The sum of digit of number {number} is : {sum_number()}")
+
 
 
