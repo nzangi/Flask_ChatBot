@@ -15,7 +15,7 @@ with open("input_frequency_file.txt", 'r') as file:
     my_text = file.read().lower()
 
 print("---------------------------------------------------------")
-# print('input file contents are:')
+# print('input file.txt contents are:')
 # print(my_text)
 # print("---------------------------------------------------------")
 
@@ -43,14 +43,14 @@ sorted_frequency = sorted(letter_frequency.items(), key=lambda x: x[1], reverse=
 # convert sorted myList back to dictionary
 sorted_dictionary = dict(sorted_frequency)
 
-# wring frequency outputs to a file
+# wring frequency outputs to a file.txt
 # and printing our alphabets with respective frequencies
-open('output_frequency_file.txt', 'w').close()  # this opens file and removes any existing contents first
+open('output_frequency_file.txt', 'w').close()  # this opens file.txt and removes any existing contents first
 
 for key, value in sorted_frequency:
     # print to standard output
     print(f"{key}\t{value}")
-    # print to file
+    # print to file.txt
     print(f"{key}\t{value}", file=open('output_frequency_file.txt', 'a'))
 
 print('alphabets and frequencies are also available in output_frequencies_file.txt\n\n\n')

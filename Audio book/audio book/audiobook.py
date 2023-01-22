@@ -21,7 +21,7 @@ for number in range(pdf_Reader.numPages):
     print(text)
     speaker.runAndWait()
 
-    #saving the file as pdf
+    #saving the file.txt as pdf
     speaker.save_to_file(text,'n.mp3')
     speaker.runAndWait()
 

@@ -39,35 +39,35 @@ def game():
         printLine = self.getTitle() + ", " + self.getplayerLastName() + ", " + self.getgamingDate() + ", " + self.getwins()
         return printLine
 
-    # Function to write from the file
+    # Function to write from the file.txt
     def writeToFile(self, fileName):
         playersFile = open(fileName, 'a')
         # Write the header line
         playersFile.write(self.__str__() + "\n")
         playersFile.close()
 
-    # Function to read from the file
+    # Function to read from the file.txt
     def readFromFile(self, fileName):
         gameList = []
         try:
             file = open(fileName, "r")
-            # Read the contents of the file using the read() and split based on new lines using splitlines()
+            # Read the contents of the file.txt using the read() and split based on new lines using splitlines()
             lines = file.read().splitlines()
             for line in lines:
                 self._title, self._playerLastName, self._gamingDate, self._wins, gameType = line.split(",")
                 gameList.append([self._title, self._playerLastName, self._gamingDate, self._wins, gameType])
             return gameList
-        # Exception handling if file is not found
+        # Exception handling if file.txt is not found
         except FileNotFoundError:
             print("{} NOT FOUND!".format(fileName))
             print(
-                "Kindly ensure the input file is in the same location where the Python program is running and try again")
+                "Kindly ensure the input file.txt is in the same location where the Python program is running and try again")
             return []
         except Exception as ex:
             print("File open error")
             print(ex)
             print(
-                "Kindly ensure the input file is in the same location where the Python program is running and try again")
+                "Kindly ensure the input file.txt is in the same location where the Python program is running and try again")
             print("Exiting the program - Execution Terminated !!!")
             return []
 

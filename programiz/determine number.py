@@ -50,9 +50,9 @@ for your_list in your_lists:
 # tuple = tuple(list)
 # print(f"List: {list}")
 # print(f"Tuple: {tuple}")
-# filename = input("Enter the Input file: ")
+# filename = input("Enter the Input file.txt: ")
 # file_extension = filename.split(".")
-# print(f"The Output file is: {file_extension[-1]}")
+# print(f"The Output file.txt is: {file_extension[-1]}")
 # color_list = ["Red","Green","White","Black"]
 # print(f"The first color is: {color_list[0]} and last color is: {color_list[-1]}")
 
@@ -464,7 +464,7 @@ for your_list in your_lists:
 # call(["ls", "-l"])
 
 # import os
-# print(f"Current file is: {os.path.relpath(__file__)}")
+# print(f"Current file.txt is: {os.path.relpath(__file__)}")
 #
 # import multiprocessing
 # print(multiprocessing.cpu_count())

@@ -26,7 +26,7 @@ V2 = Rate(lambda_, mu)
 def generate(lambda_=4, mu=5, N0=5, Tmax=200):
     """
     function generate_MM1(N0 = 5,Tmax=200)
-    generates an MM1 file
+    generates an MM1 file.txt
     INPUTS
     ------
     lambda, mu: arrival and departure rates
